@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/SettingLayout.MarginBottom"
+            android:src="@drawable/algorithm"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/btn_belah_ketupat"
+            style="@style/ButtonGeneral"
+            android:text="Belah Ketupat" />
+
+        <Button
+            android:id="@+id/btn_trapesium"
+            style="@style/ButtonGeneral"
+            android:text="Trapesium" />
+
+        <Button
+            android:id="@+id/btn_segitiga"
+            style="@style/ButtonGeneral"
+            android:text="Segitiga" />
+
+        <Button
+            android:id="@+id/btn_jajar_genjang"
+            style="@style/ButtonGeneral"
+            android:text="Jajar Genjang" />
+
+        <Button
+            android:id="@+id/btn_bujur_sangkar"
+            style="@style/ButtonGeneral"
+            android:text="Bujur Sangkar" />
+
+        <Button
+            android:id="@+id/btn_persegi_panjang"
+            style="@style/ButtonGeneral"
+            android:text="Persegi Panjang" />
+
+        <Button
+            android:id="@+id/btn_lingkaran"
+            style="@style/ButtonGeneral"
+            android:text="Lingkaran" />
+
+        <Button
+            android:id="@+id/btn_balok"
+            style="@style/ButtonGeneral"
+            android:text="Balok" />
+
+        <Button
+            android:id="@+id/btn_kubus"
+            style="@style/ButtonGeneral"
+            android:text="Kubus" />
+
+        <Button
+            android:id="@+id/btn_prisma_segitiga"
+            style="@style/ButtonGeneral"
+            android:text="Prisma Segitiga" />
+
+        <Button
+            android:id="@+id/btn_limas_segiempat"
+            style="@style/ButtonGeneral"
+            android:text="Limas Segi Empat" />
+
+        <Button
+            android:id="@+id/btn_limas_segitiga"
+            style="@style/ButtonGeneral"
+            android:text="Limas Segitiga" />
+
+        <Button
+            android:id="@+id/btn_tabung_1"
+            style="@style/ButtonGeneral"
+            android:text="Tabung dengan Tutup" />
+
+        <Button
+            android:id="@+id/btn_tabung_2"
+            style="@style/ButtonGeneral"
+            android:text="Tabung tanpa Tutup" />
+
+        <Button
+            android:id="@+id/btn_kerucut"
+            style="@style/ButtonGeneral"
+            android:text="Kerucut" />
+
+    </LinearLayout>
+</ScrollView>

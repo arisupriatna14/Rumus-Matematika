@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rumus Matematika</string>
+    <string name="diagonal_2_d2">Diagonal 2 (d2)</string>
+    <string name="diagonal_1_d1">Diagonal 1 (d1)</string>
+    <string name="hasil">Hasil</string>
+    <string name="luas_belah_ketupat">Luas Belah Ketupat</string>
+    <string name="hitung_luas_belah_ketupat">Hitung Luas Belah Ketupat</string>
+    <string name="luas_bujur_sangkar">Luas Bujur Sangkar</string>
+    <string name="luas_jajar_genjang">Luas Jajar Genjang</string>
+    <string name="hitung_luas_jajar_genjang">Hitung Luas Jajar Genjang</string>
+    <string name="luas_trapesium">Luas Trapesium</string>
+    <string name="hitung_luas_trapesium">Hitung Luas Trapesium</string>
+    <string name="title_activity_diagonal_satu_belah_ketupat">DiagonalSatuBelahKetupat</string>
+</resources>

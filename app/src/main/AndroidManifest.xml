@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tk.explorecode.rumuspythagoras">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LuasBelahKetupat" />
+        <activity android:name=".Trapesium" />
+        <activity android:name=".LuasSegitiga" />
+        <activity android:name=".JajarGenjang" />
+        <activity android:name=".BujurSangkar" />
+        <activity android:name=".PersegiPanjang" />
+        <activity android:name=".Lingkaran" />
+        <activity android:name=".Kubus" />
+        <activity android:name=".MenuSegitiga" />
+        <activity android:name=".AlasSegitiga" />
+        <activity android:name=".TinggiSegitiga" />
+        <activity android:name=".MenuBelahKetupat" />
+        <activity android:name=".DiagonalSatuBelahKetupat" />
+        <activity android:name=".MenuJajarGenjang" />
+        <activity android:name=".MenuBujurSangkar"></activity>
+    </application>
+
+</manifest>
